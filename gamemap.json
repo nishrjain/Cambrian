@@ -1,65 +1,65 @@
-[
-  {
-    "RoomID": 0,
-    "RoomName": "Bank",
-    "Connection1": 2,
-    "Connection2": "",
-    "Connection3": "",
-    "Description": "You have entered the Bank",
-    "FunctionCode": 0
-  },
-  {
-    "RoomID": 1,
-    "RoomName": "Pantry",
-    "Connection1": 3,
-    "Connection2": "",
-    "Connection3": "",
-    "Description": "You have entered the Pantry",
-    "FunctionCode": 1
-  },
-  {
-    "RoomID": 2,
-    "RoomName": "Hospital",
-    "Connection1": 5,
-    "Connection2": 0,
-    "Connection3": "",
-    "Description": "You have entered the Hospital",
-    "FunctionCode": 2
-  },
-  {
-    "RoomID": 3,
-    "RoomName": "Storeroom",
-    "Connection1": 1,
-    "Connection2": "",
-    "Connection3": "",
-    "Description": "You have entered the Storeroom",
-    "FunctionCode": 3
-  },
-  {
-    "RoomID": 4,
-    "RoomName": "Lobby",
-    "Connection1": 5,
-    "Connection2": 6,
-    "Connection3": 1,
-    "Description": "You have entered the Lobby",
-    "FunctionCode": 4
-  },
-  {
-    "RoomID": 5,
-    "RoomName": "Weapon Room",
-    "Connection1": 4,
-    "Connection2": 2,
-    "Connection3": "",
-    "Description": "You have entered the Weapon Room",
-    "FunctionCode": 5
-  },
-  {
-    "RoomID": 6,
-    "RoomName": "Game Room",
-    "Connection1": 4,
-    "Connection2": "",
-    "Connection3": "",
-    "Description": "You have entered the Game Room",
-    "FunctionCode": 6
-  }
-]
+{
+   "0": {
+      "RoomName": "Bank",
+      "Connection1": 2,
+      "Connection2": null,
+      "Connection3": null,
+      "Description": "You have entered the Bank",
+      "Navigation": "\nSelect one option\n[1]Hospital",
+      "FunctionCode": 0
+   },
+   "1": {
+      "RoomName": "Pantry",
+      "Connection1": 3,
+      "Connection2": null,
+      "Connection3": null,
+      "Description": "You have entered the Pantry",
+      "Navigation": "\nSelect one option\n[1]Storeroom",
+      "FunctionCode": 1
+   },
+   "2": {
+      "RoomName": "Hospital",
+      "Connection1": 5,
+      "Connection2": 0,
+      "Connection3": null,
+      "Description": "You have entered the Hospital",
+      "Navigation": "\nSelect one option\n[1]Weapon Room\n[2]Bank",
+      "FunctionCode": 2
+   },
+   "3": {
+      "RoomName": "Storeroom",
+      "Connection1": 1,
+      "Connection2": null,
+      "Connection3": null,
+      "Description": "You have entered the Storeroom",
+      "Navigation": "\nSelect one option\n[1]Pantry",
+      "FunctionCode": 3
+   },
+   "4": {
+      "RoomName": "Lobby",
+      "Connection1": 5,
+      "Connection2": 6,
+      "Connection3": 1,
+      "Description": "You have entered the Lobby",
+      "Navigation": "\nSelect one option\n[1]Weapon Room\n[2]Game Room\n[3]Pantry",
+      "FunctionCode": 4
+   },
+   "5": {
+      "RoomName": "Weapon Room",
+      "Connection1": 4,
+      "Connection2": 2,
+      "Connection3": null,
+      "Description": "You have entered the Weapon Room",
+      "Navigation": "\nSelect one option\n[1]Lobby\n[2]Hospital",
+      "FunctionCode": 5
+   },
+   "6": {
+      "RoomName": "Game Room",
+      "Connection1": 4,
+      "Connection2": null,
+      "Connection3": null,
+      "Description": "You have entered the Game Room",
+      "Navigation": "\nSelect one option\n[1]Lobby",
+      "FunctionCode": 6
+   }
+}
