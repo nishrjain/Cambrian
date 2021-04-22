@@ -1,65 +1,65 @@
 [
   {
-    "RoomID": 1,
+    "RoomID": 0,
     "RoomName": "Bank",
-    "Connection1": 3,
+    "Connection1": 2,
     "Connection2": "",
     "Connection3": "",
     "Description": "You have entered the Bank",
+    "FunctionCode": 0
+  },
+  {
+    "RoomID": 1,
+    "RoomName": "Pantry",
+    "Connection1": 3,
+    "Connection2": "",
+    "Connection3": "",
+    "Description": "You have entered the Pantry",
     "FunctionCode": 1
   },
   {
     "RoomID": 2,
-    "RoomName": "Pantry",
-    "Connection1": 4,
-    "Connection2": "",
+    "RoomName": "Hospital",
+    "Connection1": 5,
+    "Connection2": 0,
     "Connection3": "",
-    "Description": "You have entered the Pantry",
+    "Description": "You have entered the Hospital",
     "FunctionCode": 2
   },
   {
     "RoomID": 3,
-    "RoomName": "Hospital",
-    "Connection1": 6,
-    "Connection2": 1,
+    "RoomName": "Storeroom",
+    "Connection1": 1,
+    "Connection2": "",
     "Connection3": "",
-    "Description": "You have entered the Hospital",
+    "Description": "You have entered the Storeroom",
     "FunctionCode": 3
   },
   {
     "RoomID": 4,
-    "RoomName": "Storeroom",
-    "Connection1": 2,
-    "Connection2": "",
-    "Connection3": "",
-    "Description": "You have entered the Storeroom",
+    "RoomName": "Lobby",
+    "Connection1": 5,
+    "Connection2": 6,
+    "Connection3": 1,
+    "Description": "You have entered the Lobby",
     "FunctionCode": 4
   },
   {
     "RoomID": 5,
-    "RoomName": "Lobby",
-    "Connection1": 6,
-    "Connection2": 7,
-    "Connection3": 2,
-    "Description": "You have entered the Lobby",
+    "RoomName": "Weapon Room",
+    "Connection1": 4,
+    "Connection2": 2,
+    "Connection3": "",
+    "Description": "You have entered the Weapon Room",
     "FunctionCode": 5
   },
   {
     "RoomID": 6,
-    "RoomName": "Weapon Room",
-    "Connection1": 5,
-    "Connection2": 3,
-    "Connection3": "",
-    "Description": "You have entered the Weapon Room",
-    "FunctionCode": 6
-  },
-  {
-    "RoomID": 7,
     "RoomName": "Game Room",
-    "Connection1": 5,
+    "Connection1": 4,
     "Connection2": "",
     "Connection3": "",
     "Description": "You have entered the Game Room",
-    "FunctionCode": 7
+    "FunctionCode": 6
   }
 ]
