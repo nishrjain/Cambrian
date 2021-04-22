@@ -11,7 +11,7 @@
    "2": {
       "RoomName": "Pantry",
       "Connection1": 4,
-      "Connection2": null,
+      "Connection2": 6,
       "Connection3": null,
       "Description": "You have entered the Pantry",
       "Navigation": "\nSelect one option\n[1]Storeroom",
