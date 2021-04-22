@@ -5,7 +5,7 @@
       "Connection2": null,
       "Connection3": null,
       "Description": "You have entered the Bank",
-      "Navigation": "\\nSelect one option\\n[1]Hospital",
+      "Navigation": "\nSelect one option\n[1]Hospital",
       "FunctionCode": 0
    },
    "2": {
