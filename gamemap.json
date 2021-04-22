@@ -5,7 +5,7 @@
       "Connection2": null,
       "Connection3": null,
       "Description": "You have entered the Bank",
-      "Navigation": "\nSelect one option\n[1]Hospital",
+      "Navigation": "\\nSelect one option\\n[1]Hospital",
       "FunctionCode": 0
    },
    "2": {
@@ -14,7 +14,7 @@
       "Connection2": null,
       "Connection3": null,
       "Description": "You have entered the Pantry",
-      "Navigation": "\nSelect one option\n[1]Storeroom",
+      "Navigation": "\\nSelect one option\\n[1]Storeroom",
       "FunctionCode": 1
    },
    "3": {
@@ -23,7 +23,7 @@
       "Connection2": 1,
       "Connection3": null,
       "Description": "You have entered the Hospital",
-      "Navigation": "\nSelect one option\n[1]Weapon Room\n[2]Bank",
+      "Navigation": "\\nSelect one option\\n[1]Weapon Room\\n[2]Bank",
       "FunctionCode": 2
    },
    "4": {
@@ -32,7 +32,7 @@
       "Connection2": null,
       "Connection3": null,
       "Description": "You have entered the Storeroom",
-      "Navigation": "\nSelect one option\n[1]Pantry",
+      "Navigation": "\\nSelect one option\\n[1]Pantry",
       "FunctionCode": 3
    },
    "5": {
@@ -41,7 +41,7 @@
       "Connection2": 7,
       "Connection3": 2,
       "Description": "You have entered the Lobby",
-      "Navigation": "\nSelect one option\n[1]Weapon Room\n[2]Game Room\n[3]Pantry",
+      "Navigation": "\\nSelect one option\\n[1]Weapon Room\\n[2]Game Room\\n[3]Pantry",
       "FunctionCode": 4
    },
    "6": {
@@ -50,7 +50,7 @@
       "Connection2": 3,
       "Connection3": null,
       "Description": "You have entered the Weapon Room",
-      "Navigation": "\nSelect one option\n[1]Lobby\n[2]Hospital",
+      "Navigation": "\\nSelect one option\\n[1]Lobby\\n[2]Hospital",
       "FunctionCode": 5
    },
    "7": {
@@ -59,7 +59,7 @@
       "Connection2": null,
       "Connection3": null,
       "Description": "You have entered the Game Room",
-      "Navigation": "\nSelect one option\n[1]Lobby",
+      "Navigation": "\\nSelect one option\\n[1]Lobby",
       "FunctionCode": 6
    }
 }
