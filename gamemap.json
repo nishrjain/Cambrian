@@ -87,7 +87,7 @@
       "FunctionCode": 4,
       "MonsterMessage": "\nNo more virtual games. The real monster is here\n\nSelect one option\n[1] Save the virtual world[Any other key] Run Away",
       "Room Message": "Select one option\n[1] Play games\n[Any other key] Go back",
-      "Win": 1,
+      "Win": 0,
       "Lose": 0
    }
 }
