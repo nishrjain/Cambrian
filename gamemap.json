@@ -6,16 +6,20 @@
       "Connection3": null,
       "Description": "You have entered the Bank",
       "Navigation": "\nSelect one option\n[1]Hospital\n[4]Engage in Bank",
-      "FunctionCode": 5
+      "FunctionCode": 5,
+      "MonsterMessage": "\nOh no!! The monster has captured the bank and looted all the coins!\nSelect one option\n[1] Free the bank\n[Any other key] Run Away",
+      "Room Message": "\nSelect one option\n[1] Withdraw Coins\n[Any other key] Go back"
    },
    "2": {
       "RoomName": "Pantry",
       "Connection1": 4,
-      "Connection2": 6,
+      "Connection2": 5,
       "Connection3": null,
       "Description": "You have entered the Pantry",
-      "Navigation": "\nSelect one option\n[1]Storeroom\n[2]Weapon Room\n[4]Engage in Pantry",
-      "FunctionCode": 3
+      "Navigation": "\nSelect one option\n[1]Storeroom\n[2]Lobby\n[4]Engage in Pantry",
+      "FunctionCode": 3,
+      "MonsterMessage": "\nMonster : I will not leave any food for you\nSelect one option\n[1] Save your food[Any other key] Run Away",
+      "Room Message": "\nSelect one option\n[1] Buy food\n[Any other key] Go back"
    },
    "3": {
       "RoomName": "Hospital",
@@ -24,7 +28,9 @@
       "Connection3": null,
       "Description": "You have entered the Hospital",
       "Navigation": "\nSelect one option\n[1]Weapon Room\n[2]Bank\n[4]Engage in Hospital",
-      "FunctionCode": 6
+      "FunctionCode": 6,
+      "MonsterMessage": "\nYikes!! Not the hospital. The monster has taken shelter here\nSelect one option\n[1] Save the patients\n[Any other key] Run Away",
+      "Room Message": "\nSelect one option\n[1] Get admitted\n[Any other key] Go back"
    },
    "4": {
       "RoomName": "Storeroom",
@@ -33,7 +39,9 @@
       "Connection3": null,
       "Description": "You have entered the Storeroom",
       "Navigation": "\nSelect one option\n[1]Pantry\n[4]Engage in Storeroom",
-      "FunctionCode": 2
+      "FunctionCode": 2,
+      "MonsterMessage": "\nMonster: Caught you. Haha.. Come to me\nSelect one option\n[1] Kill the monster\n[Any other key] Run Away",
+      "Room Message": "\nSelect one option\n[1] Check store room items\n[Any other key] Go back"
    },
    "5": {
       "RoomName": "Lobby",
@@ -42,7 +50,9 @@
       "Connection3": 2,
       "Description": "You have entered the Lobby",
       "Navigation": "\nSelect one option\n[1]Weapon Room\n[2]Game Room\n[3]Pantry\n[4]Engage in Lobby",
-      "FunctionCode": 7
+      "FunctionCode": 7,
+      "MonsterMessage": "\nOh no!! The receptionist has been prisoned by the monster!\n[1] Free the receptionist\n[Any other key] Run Away",
+      "Room Message": "Select one option\n[1] Talk to receptionist\n[Any other key] Go back"
    },
    "6": {
       "RoomName": "Weapon Room",
@@ -51,7 +61,9 @@
       "Connection3": null,
       "Description": "You have entered the Weapon Room",
       "Navigation": "\nSelect one option\n[1]Lobby\n[2]Hospital\n[4]Engage in Weapon Room",
-      "FunctionCode": 1
+      "FunctionCode": 1,
+      "MonsterMessage": "\nThe monster is now controlling the weapons inventory. Double cost applies\nSelect one option\n[1] Liberate the weapon room from the monster\n[2] Buy weapons at double rate\n[Any other key] Run away",
+      "Room Message": "\nSelect one option\n[1] Buy Weapons\n[Any other key] Go back"
    },
    "7": {
       "RoomName": "Game Room",
@@ -60,6 +72,8 @@
       "Connection3": null,
       "Description": "You have entered the Game Room",
       "Navigation": "\nSelect one option\n[1]Lobby\n[4]Engage in Game Room",
-      "FunctionCode": 4
+      "FunctionCode": 4,
+      "MonsterMessage": "\nNo more virtual games. The real monster is here\n\nSelect one option\n[1] Save the virtual world[Any other key] Run Away",
+      "Room Message": "Select one option\n[1] Play games\n[Any other key] Go back"
    }
 }
