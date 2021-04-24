@@ -49,7 +49,7 @@
       "MonsterMessage": "\nMonster: Caught you. Haha.. Come to me\nSelect one option\n[1] Kill the monster\n[Any other key] Run Away",
       "Room Message": "\nSelect one option\n[1] Check store room items\n[Any other key] Go back",
       "Win": 0,
-      "Lose": 1
+      "Lose": 0
    },
    "5": {
       "RoomName": "Lobby",
